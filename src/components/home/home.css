@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.Home-h1box {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.Home-h1 {
+    width: 600px;
+}
+
+.HomeFlx {
+    display: flex;
+
+}
+
+.homeImg {
+    width: 600px;
+}
+
+.home-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.home-txt1 {
+    font-size: 2.5rem;
+}
+
+.home-blue-txt2 {
+    color: #0796d6;
+    font-size: 2.75rem;
+}
+
+.home-blue-txt3 {
+    color: #0796d6;
+}
+
+.home-line {
+    height: 2px;
+    background-color: #0796d6;
+    width: 650px;
+}
+
+.Msg-Btn {
+    background-color: #0796d6;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    width: 150px;
+    position: relative;
+    top: 40px;
+    left: 500px;
+}
+
+.google-img {
+    height: 320px;
+    width: 700px;
+}
+
+.contact-box {
+    margin: 20px;
+    display: flex;
+    gap: 50px;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+.contact-Form {
+    border-top: solid 7px #0796d6;
+    border-bottom: solid 12px #0796d6;
+    border-left: solid 1px #0796d6;
+    border-right: solid 1px #0796d6;
+    padding: 20px 30px;
+    color: #0796d6;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+
+
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-Form input {
+    border: none;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.231);
+}
+.select-field{
+    border: none;
+    border-bottom: 1.5px solid rgba(128, 128, 128, 0.231);
+    outline: none;
+    padding: 10px;
+    color: rgb(128, 128, 128);
+}
+
+.submit-btn {
+    width: 70px;
+    padding: 8px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0796d6;
+    color: white;
+}
+input{
+    outline: none;
+}
+.Contact-icon-color {
+    color: #0796d6;
+    height: 30px;
+    width: 30px;
+}
+
+.Home-flx2 {
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+}
+
+.Home-flx3 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-flx4 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+/* @media (width:400px){
+    *{
+        overflow: hidden;
+    }
+    .homeImg{
+        display: none;
+    }
+    .home-text{
+       max-width: 200px;
+           display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    }
+} */
